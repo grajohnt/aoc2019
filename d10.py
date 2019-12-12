@@ -17,7 +17,7 @@ with open('d10.txt') as f:
  for l in f:
   for c in l:
    if c=='#':
-    ast.append((i,j))
+    ast.append((j,i))
    elif c=='.':
     next
    else: break
